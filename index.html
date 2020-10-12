@@ -1,0 +1,179 @@
+<html lang="es">
+<div class= "container">
+<head>
+
+  <title>Solicitud de Arrendamiento</title>
+  <link rel= "stylesheet" href="surveystyle.css">
+  <h1 id="title">Solicitud de Arrendamiento</h1>
+</head>
+<body>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+  <p id= "description"> Gracias por llenar su solitud de arrendamiento con Bienes Raices San Luis </p>
+  <form id="survey-form">
+
+<p><strong> Informacion General </strong></p>
+      <label id="name-label" for="name">Nombre:</label>
+        <input type="text" id="name" name="nombre" placeholder="Escribe tu nombre completo" required> </imput>
+      <label id="number-label" for="number">Edad:</label>
+        <input type= number id="number" name= "edad" min="18" max="99" placeholder="Ingresa tu Edad" </imput>
+      <label id="dui" for="dui">DUI:</label>
+        <input type="text" name="dui" required> </imput>
+      <label id="email-label" for="email">Email:</label>
+        <input type= email id="email" name="email" placeholder= "ingresa tu correo electronico" required> </imput>
+      <label id="direccion" for="direccion">Direccion Actual:</label>
+        <input type="text" name="direccion" required> </imput>
+      <label id="tiempo" for="tiempoAlquiler">Tiempo de vivir en la esa casa:</label>
+        <input type="text" name="tiempoAlquiler" required> </imput>
+      <label id="renta" for="rentaActual">Cuanto paga de renta actualmente:</label>
+        <input type="text" name="rentaActual" required> </imput>
+      <label id="telCasa" for="telCasa">Telefono de Casa:</label>
+        <input type="tel" name="telCasa"> </input>
+      <label id="telOficina" for="telCasa">Telefono de Oficina:</label>
+        <input type="tel" name="telOficina"> </input>
+      <label id="celular" for="celular">Celular:</label>
+        <input type="tel" name="celular"> </input>
+        <p>Tipo de Inmueble</p>
+
+
+      <div class=center>
+        <label
+                ><input
+                  name="prefer"
+                  value="Casa"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Casa</label
+              >
+              <label>
+                <input
+                  name="prefer"
+                  value="Apartamento"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Apartamento</label
+              >
+              <label
+                ><input
+                  name="prefer"
+                  value="Oficina"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Oficina</label
+              >
+              <label
+                ><input
+                  name="prefer"
+                  value="local"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Local</label
+              >
+              <label
+                ><input
+                  name="prefer"
+                  value="bodega"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Bodega</label
+              >
+              <label
+                ><input
+                  name="prefer"
+                  value="Otros"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Otros</label
+              >
+            </div>
+
+<br></br>
+    <p>Estado Civil</p>
+
+    <div class="input-radio">
+      <label>
+          <input type="radio" value="soltero" name="estadocivil" checked>soltero<span></span>
+      </label>
+      <label>
+          <input type="radio" value="casado" name="estadocivil">casado<span></span>
+      </label>
+</div>
+
+
+
+
+
+
+
+      <br></br>
+      <label id="name-label" for="nombreDelConguye">Nombre del Conyugue:</label>
+        <input type= text name="nombreDelConguye" placeholder="Escribe el nombre de tu Conyugue" required> </imput>
+      <label id="trabajoConyugue" for="trabajoConyugue">Lugar de trabajo del Conyugue:</label>
+        <input type="text" name="trabajoConyugue" required> </imput>
+      <label id="SueldoConyugue" for="SueldoConyugue">Sueldo Mensual del Conyugue:</label>
+        <input type="text" name="SueldoConyugue" required> </imput>
+
+<p><strong> Trabajo </strong></p>
+      <label id="lugarTrabajo" for="lugarTrabajo">Lugar de Trabajo:</label>
+        <input type="text" name="lugarTrabajo" placeholder="Lugar de Trabajo" required> </imput>
+      <label id="direccionTrabajo" for="direccionTrabajo">Direccion del Trabajo:</label>
+        <input type="text" name="direccionTrabajo" placeholder="Direccion Completa" required> </imput>
+      <label id="cargo" for="cargo">Cargo que desempeña:</label>
+        <input type="text" name="cargo" required> </imput>
+      <label id="tiempoTrabajo" for="tiempoTrabajo">Tiempo de Trabajar en la Empresa:</label>
+        <input type="text" name="tiempoTrabajo" required> </imput>
+      <label id="sueldo" for="sueldo">Sueldo Mensual:</label>
+        <input type="text" name="sueldo" required> </imput>
+
+<p><strong> Referencias </strong></p>
+    <p>Referencias personales</p>
+    <label id="ref1name" for="ref1name">Nombre:</label>
+      <input type="text" name="ref1name" required placeholder="Nombre Refencia Personal 1"> </imput>
+    <label id="ref1phone" for="ref1phone">Telefono:</label>
+      <input type="text" name="ref1phone" required placeholder="Telefono Refencia Personal 1"> </imput>
+    <label id="ref2name" for="ref2name">Nombre:</label>
+      <input type="text" name="ref2name" required placeholder="Nombre Referencia Personal 2"> </imput>
+    <label id="ref2phone" for="ref2phone">Telefono:</label>
+      <input type="text" name="ref2phone" required placeholder="Telefono Referencia Personal 2"> </imput>
+
+    <p>Referencias familiares</p>
+    <label id="per1name" for="per1name">Nombre:</label>
+      <input type="text" name="per1name" required  placeholder="Nombre Refencia Familiar 1"> </imput>
+    <label id="per1phone" for="per1phone">Telefono:</label>
+      <input type="text" name="ref1phone" required  placeholder="Telefono Refencia Familiar 1"> </imput>
+    <label id="per2name" for="per2name">Nombre:</label>
+      <input type="text" name="per2name" required  placeholder="Nombre Refencia Familiar 2"> </imput>
+    <label id="per2phone" for="per2phone">Telefono:</label>
+      <input type="text" name="per2phone" required  placeholder="Telefono Refencia Familiar 2"> </imput>
+
+    <p>Referencia de Dueño Actual</p>
+    <label id="nombredueño" for="nombredueño">Nombre:</label>
+      <input type="text" name="nombredueño" required  placeholder="Nombre del Dueño Actual"> </imput>
+    <label id="teldueño" for="teldueño">Telefono:</label>
+      <input type="text" name="teldueño" required  placeholder="Telefono del Dueño Actual"> </imput>
+
+    <label id="dropdown" for="contrato"> ¿Para cuanto tiempo quiere el contrato de arrendamiento?</label>
+      <select id="dropdown" name= "contrato" class="form-control" required>
+      <option disabled selected value>Duracion del Contrato </option>
+      <option value="6 meses">6 meses </option>
+      <option value= "1 año"> 1 año </option>
+      <option value= "5 años"> 5 años </option>
+
+
+
+
+
+<p><strong>Condiciones</strong></p>
+  <p><strong>EN CASO DE NO CONCLUIR LA NEGOCIACION SE LE RETENDRA EL 50% DE LO RECIBIDO EN COMPENSANSION POR DAÑOS Y PREJUICIOS</strong></p>
+  <label><input name="condicion" value="Condicion" type="checkbox" class="input-checkbox" onchange="activateButton(this)">Toda la infmacion anterior es real y veridica; he leido y acepto la condiciones anterior </label>
+  <button type="submit" id="submit" class="submit-button"> Enviar </button>
+
+
+    <p>Comentarios</p><textarea id="comentarios" class="input-textarea" name="comentarios" placeholder="Sus comentarios y observaciones"></textarea>
+
+
+
+</form>
+
+</body>
+</html>
